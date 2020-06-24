@@ -6,14 +6,16 @@
 a,
 a:focus,
 a:hover {
-  color: #fff;
+  color: rgb(52, 84, 97);
+  font-weight: 600;
+  /* text-shadow: black 1px 0 5px; */
 }
 
 /* Custom default button */
 .btn-secondary,
 .btn-secondary:hover,
 .btn-secondary:focus {
-  color: #333;
+  color: rgb(43, 43, 43);
   text-shadow: none; /* Prevent inheritance from `body` */
   background-color: #fff;
   border: .05rem solid #fff;
@@ -36,17 +38,17 @@ body {
 }
 
 main {
-  color: #ccc;
+  color: #eed;
   background-color: rgb(78, 78, 78);
 }
 
 .container {
-  color: #333;
+  color: #222;
   position: relative;
   padding: 0 30px;
   top: -15px;
   margin: 0 auto;
-  background-color: rgb(175, 175, 175);
+  background-color: rgb(201, 201, 201);
 }
 
 section {
