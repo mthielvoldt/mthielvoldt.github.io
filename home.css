@@ -1,0 +1,74 @@
+
+:root {
+  --skew-angle: -15deg;
+}
+
+html {
+  height: 100%;
+}
+body {
+  height: 100%;
+  min-height: 100%;
+}
+
+.welcome {
+  position: relative;
+  height: 100%
+}
+.welcome .pane {
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  height: 100%;
+}
+.welcome .leftPane {
+  width: 60%;
+  background-image: url("images/ls2.jpg");
+}
+.welcome .rightPane {
+  width: 39%;
+}
+.welcome .paneContent {
+  position: absolute;
+  top: 35%;
+  width: 120px;
+  transform: skewX(var(--skew-angle));
+}
+.leftPane .paneContent {
+  right: 15%;
+}
+.rightPane .paneContent {
+  left: 10%;
+}
+.unskew {
+  transform: skewX(calc(-1*var(--skew-angle)));
+}
+
+
+
+button {
+  display:inline-block;
+  padding:0.35em 1.2em;
+  border:0.1em solid #FFFFFF;
+  margin:0 0.5em 1.0em 0;
+  border-radius:0.12em;
+  box-sizing: border-box;
+  text-decoration:none;
+  font-family:'Roboto',sans-serif;
+  font-weight:300;
+  color:#FFFFFF;
+  text-align:center;
+  transition: all 0.2s;
+  background-color: rgba(161, 7, 7, 0.8);
+}
+
+button:hover{
+  color:#000000;
+  background-color:#FFFFFF;
+}
+@media all and (max-width:30em){
+  button {
+    display:block;
+    margin:0.4em auto;
+  }
+} 
