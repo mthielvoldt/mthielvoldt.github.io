@@ -1,0 +1,17 @@
+main: 
+  - title: "Blog home"
+    url: /blog/
+
+sidebar-content: 
+  - title: Programming
+    children: 
+    - title: "Dell PN350 Linux fix"
+      image: https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSM3lCXWXtFknmAqFEgNKPbHyjE-XWBU6SJoRZPMSs0_N85QXg
+      image_alt: "image"
+      url: /pen
+
+  - title: Tinkering
+    children: 
+    - title: "Electric Scooter"
+      url: /scooter
+    - title: "Stirling engines"
