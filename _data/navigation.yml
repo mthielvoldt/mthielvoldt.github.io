@@ -8,7 +8,7 @@ sidebar-content:
     - title: "Dell PN350 Linux fix"
       image: https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcSM3lCXWXtFknmAqFEgNKPbHyjE-XWBU6SJoRZPMSs0_N85QXg
       image_alt: "image"
-      url: /pen
+      url: /portfolio/
 
   - title: Tinkering
     children: 

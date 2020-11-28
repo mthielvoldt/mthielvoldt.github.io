@@ -2,7 +2,8 @@
 layout: single
 title:  "Making the Dell PN350M work in Linux"
 date:   2020-11-25 12:31:27 -0800
-categories: programming drivers
+categories: 
+    - "pen"
 ---
 ## The Problem
 For years, I have been accumulating and ultimately losing countless pages of paper notes, so when I ordered a Dell 2-in-1 laptop, I was beyond ready to enter the digital age of note-taking.  I was, and still am, most excited about being able to search handwritten notes.  Every laptop manufacturer I looked at was selling 2-in-1’s, and it is 24 years since the PalmPilot 1000 debut, so I assumed the software for recognizing handwriting would be pretty functional on all platforms by now.  I would be using Linux. 
