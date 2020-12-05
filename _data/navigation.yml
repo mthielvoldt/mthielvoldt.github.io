@@ -1,6 +1,12 @@
 main: 
-  - title: "Blog home"
+  - title: "Projects"
+    url: /projects/
+  - title: "Blog"
     url: /blog/
+  - title: "Resume"
+    url: /resume/
+  - title: "Contact"
+    url: /contact/
 
 sidebar-content: 
   - title: Programming
@@ -10,8 +16,12 @@ sidebar-content:
       image_alt: "image"
       url: /pen/
 
-  - title: Tinkering
-    children: 
-    - title: "Electric Scooter"
-      url: /scooter
-    - title: "Stirling engines"
+
+  # - title: "Learning and Teaching"
+  #   children: 
+  #   - title: "Version Control"
+  #     url: /git
+
+  # - title: "Technologies"
+  #   children: 
+  #   - title: "Stirling engines"
