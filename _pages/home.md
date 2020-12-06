@@ -5,28 +5,7 @@ header:
   overlay_color: "#556677"
   overlay_image: placeholder.jpg
 excerpt: 'Deep-stack software developer' 
-
-feature_row:
-  - title: "LiteInvite"
-    alt: "LiteInvite project"
-    excerpt: "A privacy-oriented RESTful app for organizing events." 
-    image_path: /images/LiteInvite192.png
-    url: "https://liteinvite.com"
-    btn_label: "Live"
-  - title: "ListPalette"
-    alt: "ListPalette app"
-    excerpt: "A checklist app for the enthusiastic optimizer."
-    url: "https://listpalette.com"
-    btn_label: "Live"
-  - title: "ECUality"
-    alt: "ECUality ECU project"
-    excerpt: "An open-source, auto-tuning, 8-bit ecu that makes old vehicles run cleaner"
-    url: "https://hackaday.io/project/4622-ecuality1"
-    btn_label: "Project"
-  
 ---
-
-{% include feature_row %}
 
 <section id="projects">
         <h2 class="mb-4">My Projects</h2>
