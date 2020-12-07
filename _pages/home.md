@@ -18,7 +18,7 @@ excerpt: 'Deep-stack software developer'
                 <img src="images/LiteInvite192.png" class="mb-2" width="88" height="88" focusable="false"
                   aria-label="Placeholder: Thumbnail">
               </div>
-              <h3 class="mb-0">LiteInvite</h3>
+              <h3 class="my-0">LiteInvite</h3>
               <div class="my-3">
                 <span class="badge badge-pill badge-primary">MongoDB</span>
                 <span class="badge badge-pill badge-primary">Express</span>
@@ -42,7 +42,7 @@ excerpt: 'Deep-stack software developer'
                 <img src="images/list-palette192.svg" class="bd-placeholder-img" width="112" height="112" focusable="false"
                   aria-label="Placeholder: Thumbnail">
               </div>
-              <h3 class="mb-0">ListPalette</h3>
+              <h3 class="my-0">ListPalette</h3>
               <div class="my-3">
                 <span class="badge badge-pill badge-primary">PostgreSQL</span>
                 <span class="badge badge-pill badge-primary">Express</span>
@@ -67,7 +67,7 @@ excerpt: 'Deep-stack software developer'
                 <img src="images/ecuality192.png" class="bd-placeholder-img" width="150" height="150" focusable="false"
                   aria-label="Placeholder: Thumbnail">
               </div>
-              <h3 class="mb-0">ECUality</h3>
+              <h3 class="my-0">ECUality</h3>
               <div class="my-3">
                 <span class="badge badge-pill badge-primary">C++</span>
                 <span class="badge badge-pill badge-primary">Arduino</span>
