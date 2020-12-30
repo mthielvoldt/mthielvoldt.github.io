@@ -19,8 +19,13 @@ Engineered high-resolution logarithmic LED dimming and 12-actuator closed-loop m
 *Oct. 2008 – Aug. 2018*
 Owned most technical aspects of flame-effect development: mechanical, electrical and programming. Regarding code specifically, I wrote the effect's embedded firmware in assembly and C as well as desktop apps for diagnostics, over-network re-programming and automated testing.
 
+### Contracting engineer - [Brunet Ageing Research lab, Stanford](https://web.stanford.edu/group/brunet/)
+*Jul. 2017 - Sept. 2017*
+Delivered system revision with expanded features and DFM for IoT fish feeder.  Micropython on ESP-32 (wifi) with PIC slave for sensor, actuator drive and video.  Networked with MQTT
+
 #### Technical co-founder - [Aquavolta LLC](http://aquavolta-archive.weebly.com)
-Co-owned all aspects of product development, from concept to low-hundreds production of new action-sports equipment. As a developer, I designed the company website and wrote the firmware for the battery-operated product, achieving very low power consumption.
+*Sept. 2015 - Dec. 2017*
+Co-owned all aspects of product development, from concept to low-hundreds production of new action-sports equipment. Regarding software specifically, I designed the company website and wrote the firmware for the battery-operated product, achieving very low power consumption.
 
 #### Contracting Engineer - [All Power Labs](http://allpowerlabs.com)
 Wrote firmware for operation-critical and safety-critical automated feed system for a biomass-fed electrical generator. Delivered new hardware in a highly integrated technical context, leveraging the proficiencies of the customer's team. 
