@@ -4,7 +4,7 @@ layout: single
 permalink: /resume/
 ---
 
-Veteran mecahnical engineer and hardware hacker seeking embedded or driver developer opportunities
+Veteran mechanical engineer and hardware hacker seeking embedded or driver developer opportunities
 
 ## Work Experience
 #### Math and science tutor - [Bay Area Learning Partners](http://bayarealearningpartners.com)
