@@ -1,8 +1,10 @@
 ---
 title: Resume
 layout: single
+classes: wide
 permalink: /resume/
 ---
+[PDF Version](/assets/resume_2020.7.pdf){: .btn .btn--info}
 
 Veteran mechanical engineer and hardware hacker seeking embedded or driver developer opportunities
 
