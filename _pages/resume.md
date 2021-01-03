@@ -48,6 +48,6 @@ Finger-operated accelerator
 [US9746872B2](https://patents.google.com/patent/US9746872B2/en?oq=US9746872B2)
 
 ## Education
-M.S. Mechanical Eng. 
+B.S., M.S. Mechanical Eng. 
 Stanford University
 *Energy Systems Concentration*
