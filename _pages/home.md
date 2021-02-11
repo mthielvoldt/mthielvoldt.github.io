@@ -4,7 +4,7 @@ permalink: /
 header: 
   overlay_color: "#556677"
   overlay_image: placeholder.jpg
-excerpt: 'Deep-stack software developer' 
+excerpt: 'Deep-stack developer' 
 ---
 
 <section id="projects">
@@ -76,3 +76,20 @@ excerpt: 'Deep-stack software developer'
     </div>
   </div>
 </section>
+
+## Older Projects
+
+### [LiveSpark](/livespark/) 
+A propane flame effect utilizing proportional valves to delight live audiences. 
+
+### [AquaVolta](/aquavolta/)
+An led light system for kiteboards that takes a licking and keeps on... blinking.
+
+### [Packable Scooter](/scooter/)
+A 10-kg electric scooter that folds to fit inside a backpack and also powers up hills. 
+
+### [Jackrabbit Devices](/jackrabbit/)
+A race-inspired accelerator for motorcycles.  
+
+## What do I mean by "Deep Stack"? 
+In a nutshell, I can set up a website, set up a server to host it, then spec and program a hardware-embedded chip to interact with the web API, sort out power electronics to drive some heavy loads, and then tackle thermal and ingress protection. 
