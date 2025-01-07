@@ -4,7 +4,7 @@ permalink: /
 header: 
   overlay_color: "#556677"
   overlay_image: placeholder.jpg
-excerpt: 'Deep-stack developer' 
+excerpt: 'Firmware | Power Converters | Motor Control | Embedded Devops' 
 ---
 
 <section id="projects">
