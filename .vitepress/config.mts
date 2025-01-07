@@ -3,12 +3,15 @@ import { defineConfig } from 'vitepress'
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   title: "Mike Thielvoldt",
-  description: "The works and services of Mike Thielvoldt",
+  description: "The works and services of an enginer and educator",
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Examples', link: '/markdown-examples' }
+      { text: 'Projects', link: '/_pages/projects'},
+      { text: 'Services', link: '/_pages/services' },
+      { text: 'Blog', link: '/_pages/blog'}, 
+      { text: 'Contact', link: '/_pages/contact'}
     ],
 
     sidebar: [
@@ -22,7 +25,7 @@ export default defineConfig({
     ],
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/vuejs/vitepress' }
+      { icon: 'github', link: 'https://github.com/mthielvoldt' }
     ]
   }
 })
