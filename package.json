@@ -1,0 +1,29 @@
+{
+  "name": "mthielvoldt.github.io",
+  "version": "2.0.0",
+  "description": "The works and services of Mike Thielvoldt",
+  "main": "index.js",
+  "scripts": {
+    "test": "vitest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mthielvoldt/mthielvoldt.github.io.git"
+  },
+  "keywords": [
+    "vitepress",
+    "vitest",
+    "blog",
+    "thielvoldt",
+    "projects"
+  ],
+  "author": "Mike Thielvoldt (https://mthielvoldt.github.io/)",
+  "license": "SEE LICENSE IN LICENSE.txt",
+  "bugs": {
+    "url": "https://github.com/mthielvoldt/mthielvoldt.github.io/issues"
+  },
+  "homepage": "https://github.com/mthielvoldt/mthielvoldt.github.io#readme",
+  "devDependencies": {
+    "vitepress": "^1.5.0"
+  }
+}
