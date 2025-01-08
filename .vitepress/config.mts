@@ -19,7 +19,11 @@ export default defineConfig({
         text: 'Examples',
         items: [
           { text: 'Markdown Examples', link: '/markdown-examples' },
-          { text: 'Runtime API Examples', link: '/api-examples' }
+          { text: 'Runtime API Examples', link: '/api-examples' },
+          { text: 'Aqua-Volta', link: '/projects/aqua-volta'},
+          { text: 'Jackrabbit Devices', link: '/projects/jackrabbit'},
+          { text: 'LiveSpark', link: '/projects/livespark'},
+          { text: 'Packable E-Scooter', link: '/projects/scooter'}
         ]
       }
     ],
