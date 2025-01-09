@@ -3,20 +3,27 @@
 layout: home
 
 hero:
-  name: "Your Firmware \nWeb Accelerated"
-  tagline: Let's write your first end-to-end test today.
+  name: "Your Firmware \nAccelerating"
+  tagline: Let's write an end-to-end test today.
+
+  # Actions are clickable. 
   actions:
     - theme: brand
-      text: Markdown Examples
+      text: Start Questionnaire
       link: /markdown-examples
     - theme: alt
-      text: API Examples
+      text: My Credentials
+      link: /api-examples
+    - theme: alt
+      text: How I Work
       link: /api-examples
 
 features:
-  - title: Web-Accelerated Development
-    details: Websites give users *and* developers great experiences.  Let's build firmware there.
-  - title: Test early, meaningfully
-    details: At a project's start, we don't know everything that the product will need to do.  Let's write tests for what we do know.
+  - title: Facilitate access with Web-UIs
+    details: Websites give users <em>and</em> developers great experiences.  Let's build interfaces there, and get our users involved.
+  - title: Write the most meaningful tests first
+    details: At a project's beginning, we figure out what the product should do.  Let's reinforce that process by writing our first tests for that core functionality, and build from there.
+  - title: Get our hands dirty
+    details: Simulation is great, but it only takes you so far.  Let's equip ourselves for testing on real hardware, without breaking it.
 ---
 
