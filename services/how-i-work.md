@@ -19,7 +19,7 @@ Without tests, there's a ceiling on the size and complexity a project can reach,
 End-to-End tests support product use-cases, including engineering and manufacture use cases.  My favorite solution is to deliver the GUI mentioned above **as a web page**, and write tests in [Playwright][1].  Testing this way covers the UI, so we can release a full solution with confidence. 
 
 ### Integration tests
-I recommend forgoing this level of testing until a little later in a project.  Integration tests generally only have a good return-on-investment once the architecture is relatively settled.  The exception could be: if simulation is justified for the project, I can leverage that simulation to build integration tests.  This can cover changes to feedback controls without tying up or risking hardware.  Of course these statements reflect my background in power electronics.  
+I recommend forgoing this level of testing until after the architecture is relatively settled.  It's difficult to get good return-on-investment from integration tests before that.  One exception is: if simulation is planned for the project, some simulation platforms can support integration tests.  Such a setup could partially validate changes to feedback control code without risking hardware.
 
 ### Unit tests
 Unit tests are great for proving a code unit does the right things.  I think there's a little too much emphasis on these in some circles, but they certainly give a great ROI for corner cases.  I like [Unity][2] for embedded projects.
