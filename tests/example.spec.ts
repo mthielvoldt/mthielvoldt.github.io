@@ -1,22 +1,32 @@
 import { test, expect } from '@playwright/test';
 
 test.beforeEach(async ({ page }) => {
-  await page.goto(http)
+  await page.goto('/');
 })
 
-test('has title', async ({ page }) => {
-  await page.goto('https://playwright.dev/');
+test.describe('Services page', () => {
 
-  // Expect a title "to contain" a substring.
-  await expect(page).toHaveTitle(/Playwright/);
+  test('Has title', async ({ page }) => {
+    // Expect a title "to contain" a substring.
+    await expect(page).toHaveTitle(/Mike Thielvoldt/);
+    await expect(page.getByText('Firmware')).toBeVisible();
+  });
+
+  test('Questionnaire link works', async ({ page }) => {
+    const page1Promise = page.waitForEvent('popup');
+    await page.getByRole('link', { name: 'Start Questionnaire' }).click();
+    const page1 = await page1Promise;
+    await expect(page1.getByRole('heading', { name: 'Embedded Project Introduction' })).toBeVisible();
+  });
+
+  test('Capabilities link works.', async ({ page }) => {
+    await page.getByRole('link', { name: 'My Capabilities' }).click();
+    await expect(page.getByRole('heading', { name: 'My Capabilities' })).toBeVisible();
+  });
+
+  test('Momentum link works.', async ({ page }) => {
+    await page.getByRole('link', { name: 'How I Build Momentum' }).click();
+    await expect(page.getByRole('heading', { name: 'How I Build Momentum' })).toBeVisible();
+  });
 });
 
-test('get started link', async ({ page }) => {
-  await page.goto('https://playwright.dev/');
-
-  // Click the get started link.
-  await page.getByRole('link', { name: 'Get started' }).click();
-
-  // Expects page to have a heading with the name of Installation.
-  await expect(page.getByRole('heading', { name: 'Installation' })).toBeVisible();
-});
