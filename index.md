@@ -10,13 +10,13 @@ hero:
   actions:
     - theme: brand
       text: Start Questionnaire
-      link: /markdown-examples
+      link: https://docs.google.com/forms/d/e/1FAIpQLSfGbfhq6eAd0bzsrzMBbh4z6RK9Bkmv9Tg9Ms9ixGj1nRGZTA/viewform?usp=header
     - theme: alt
-      text: My Credentials
-      link: /api-examples
+      text: My Capabilities
+      link: /services/capabilities
     - theme: alt
-      text: How I Work
-      link: /api-examples
+      text: How I Build Momentum
+      link: /services/how-i-work
 
 features:
   - title: Facilitate access with Web-UIs

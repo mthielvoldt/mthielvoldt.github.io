@@ -1,8 +1,5 @@
 ---
 title: Resume
-layout: single
-classes: wide
-permalink: /resume/
 ---
 [PDF Version](/assets/resume_2020.7.pdf){: .btn .btn--info}
 

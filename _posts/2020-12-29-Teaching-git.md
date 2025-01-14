@@ -23,7 +23,7 @@ I think we have all been here.  Maybe you do this to yourself, maybe you are sol
 | Packet #1 Final 0619.pdf
 | COPY Packet #1 Final 0619 copy.pdf | 
 
-Intelligent, conscientious, careful people will steward data into a mangled state like this.  I have done this too.  How?  Why?  What are we to do? 
+Intelligent, conscientious people do this.  I have done this.  No shame, but it isn't great, is it?  What are we to do? 
 
 ## A social problem
 Last week, I inherited a project that looked as above.  Beginning work, it was obvious that productivity was approaching a full roadblock without version control.  But it was also obvious that I needed to convince the rest of the team to embrace the change.  Just putting a project on GitHub would do more harm than good if the old files were still used or if the old habits persisted. 
