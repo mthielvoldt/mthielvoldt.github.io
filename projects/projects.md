@@ -18,6 +18,12 @@ title: Projects
   codelink="https://github.com/ECUality/ECUality"
 />
 
+### [LiveSpark](/projects/livespark) 
+A propane flame effect utilizing proportional valves to delight live audiences. 
+
+### [AquaVolta](/projects/aqua-volta)
+An extremely robust light system for kiteboards.
+
 ## Web Apps
 <Card 
   imgsrc="/images/LiteInvite192.png"
@@ -35,12 +41,6 @@ title: Projects
   demolink="https://listpalette.com"
   codelink="https://github.com/mthielvoldt/list-palette"
 />
-
-### [LiveSpark](/projects/livespark) 
-A propane flame effect utilizing proportional valves to delight live audiences. 
-
-### [AquaVolta](/projects/aqua-volta)
-An extremely robust light system for kiteboards.
 
 ## Mostly Mechanical
 ### [Packable Scooter](/projects/scooter)
