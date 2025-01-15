@@ -30,7 +30,7 @@ test.describe('Services page', () => {
   });
 });
 
-test.describe.only('NavBar', () => {
+test.describe('NavBar', () => {
 
   test('Projects link works', async ({ page }) => {
     await page.getByRole('link', { name: 'Projects' }).click();
