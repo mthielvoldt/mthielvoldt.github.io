@@ -55,7 +55,8 @@ export default defineConfig({
     },
 
     socialLinks: [
-      { icon: 'github', link: 'https://github.com/mthielvoldt' }
+      { icon: 'github', link: 'https://github.com/mthielvoldt' },
+      { icon: 'linkedin', link: 'http://linkedin.com/in/mike-thielvoldt' }
     ]
   }
 })
