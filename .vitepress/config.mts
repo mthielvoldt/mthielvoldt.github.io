@@ -9,7 +9,6 @@ export default defineConfig({
     nav: [
       { text: 'Services', link: '/' },
       { text: 'Projects', link: '/projects/projects' },
-      { text: 'Blog', link: '/_pages/blog' },
       { text: 'Contact', link: '/_pages/contact' }
     ],
 
