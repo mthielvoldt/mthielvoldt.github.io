@@ -13,7 +13,7 @@
         <fieldset>
           <label>
             <div>Message:</div>
-            <textarea name="message" placeholder="message"></textarea>
+            <textarea name="message" placeholder="message" rows="7"></textarea>
           </label>
         </fieldset>
         <fieldset class="button_send">
@@ -41,27 +41,30 @@ button,
 }
 
 fieldset {
-  border: 0px solid white;
+  border: 0;
 }
 
 button {
   font-weight: bold;
-  color: gray;
-  background-color: black;
+  color: var(--vp-c-text-1);
+  background-color: var(--vp-c-default-3);
   padding: 5px;
-  border: 1px solid white;
+  border: 1px solid var(--vp-c-default-1);
+}
+button:hover {
+  background-color: var(--vp-c-default-2);
 }
 
 input, textarea {
-  color: white;
-  background-color: black;
+  color: var(--vp-c-text-1);
+  background-color: var(--vp-c-default-soft);
   padding: 1px;
-  border: 1px solid white;
+  border: 1px solid var(--vp-c-default-1);
 }
 
 label div {
   white-space: pre-line;
-  color: gray;
+  color: var(--vp-c-text-2);
   padding: 0px;
 }
 </style>
