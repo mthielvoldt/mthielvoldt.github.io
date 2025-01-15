@@ -30,3 +30,21 @@ test.describe('Services page', () => {
   });
 });
 
+test.describe.only('NavBar', () => {
+
+  test('Projects link works', async ({ page }) => {
+    await page.getByRole('link', { name: 'Projects' }).click();
+    await expect(page.getByRole('heading', { name: 'my projects and past work' })).toBeVisible();
+  });
+
+  test.skip('Blog link works.', async ({ page }) => {
+    await page.getByRole('link', { name: 'Blog' }).click();
+    await expect(page.getByRole('heading', { name: 'Blog' })).toBeVisible();
+  });
+
+  test('Contact link works.', async ({ page }) => {
+    await page.getByRole('link', { name: 'Contact' }).click();
+    await expect(page.getByRole('heading', { name: 'Contact' })).toBeVisible();
+  });
+});
+

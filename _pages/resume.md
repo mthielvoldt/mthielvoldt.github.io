@@ -1,7 +1,10 @@
 ---
 title: Resume
 ---
-[PDF Version](/assets/resume_2020.7.pdf){: .btn .btn--info}
+
+# Resume
+
+[PDF Version](/assets/resume_2020.7.pdf)
 
 Veteran mechanical engineer and hardware hacker seeking embedded or driver developer opportunities
 

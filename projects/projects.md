@@ -1,3 +1,5 @@
+# My Projects and Past Work
+
 ## Web Apps
 
 <div class="col-md-4">
@@ -69,15 +71,15 @@
   </div>
 </div>
 
-### [LiveSpark](/projects/livespark/) 
+### [LiveSpark](/projects/livespark) 
 A propane flame effect utilizing proportional valves to delight live audiences. 
 
-### [AquaVolta](/projects/aquavolta/)
+### [AquaVolta](/projects/aqua-volta)
 An extremely robust light system for kiteboards.
 
 ## Mostly Mechanical
-### [Packable Scooter](/projects/scooter/)
+### [Packable Scooter](/projects/scooter)
 A powerful electric scooter that can fit inside a backpack. 
 
-### [Jackrabbit Devices](/projects/jackrabbit/)
+### [Jackrabbit Devices](/projects/jackrabbit)
 A novel accelerator for motorcycles that improves lap time *and* safety.
