@@ -59,7 +59,7 @@ My experiences at both Gradient and Lunar taught and re-taught me certain lesson
 
 After leaving Lunar, I felt unsettled about these lessons because they didn't offer any solutions.  I had tried twice, and failed twice, to instigate an automated testing program Lunar.  I had help, and even some buy-in (more like non-interference), but the systems my colleagues and I built never seemed to deliver on the promise; the juice never felt worth the squeeze.  
 
-Through reflection and searching for answers on the internet and in books, I came to this awesome piece of wisdom: designing tests is really designing interfaces. **Reference Needed**  The corollary: tests are only as solid as the interfaces they're built atop.  At Lunar in particular, and for a variety of reasons, our interfaces were quite unstable.  The tests I wrote would all need fixing every time our interface would change.  I was making myself and others more work, not less.  So my search for answers moved upstream.  How do we build solid interfaces even at project beginnings when uncertainty is high?
+Through reflection and searching for answers on the internet and in books, I came to this awesome piece of wisdom from Dave Farley of [Continuous Delivery][3]: designing tests is *actually designing interfaces*.  The corollary: tests are only as solid as the interfaces they're built atop.  At Lunar in particular, and for a variety of reasons, our interfaces were quite unstable.  The tests I wrote would all need fixing every time our interface would change.  I was making myself and others more work, not less.  So my search for answers moved upstream.  How do we build solid interfaces even at project beginnings when uncertainty is high?
 
 This led me to look at what made an interface likely to need revision.  Here's what I noticed:
 
@@ -101,3 +101,4 @@ On other projects, my team avoided GUIs; our internal customers interacted with 
 
 [1]: https://mthielvoldt.github.io/firment
 [2]: https://github.com/mthielvoldt/firment
+[3]: https://www.youtube.com/@ContinuousDelivery
