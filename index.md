@@ -12,11 +12,11 @@ hero:
       text: Start Questionnaire
       link: https://docs.google.com/forms/d/e/1FAIpQLSfGbfhq6eAd0bzsrzMBbh4z6RK9Bkmv9Tg9Ms9ixGj1nRGZTA/viewform?usp=header
     - theme: alt
+      text: My Strategy
+      link: /services/how-i-work
+    - theme: alt
       text: My Capabilities
       link: /services/capabilities
-    - theme: alt
-      text: How I Build Momentum
-      link: /services/how-i-work
 
 features:
   - title: Facilitate access with Web-UIs
