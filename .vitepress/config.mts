@@ -35,13 +35,6 @@ export default defineConfig({
             { text: 'Fuel Injection ECU', link: '/projects/ecuality' },
           ]
         },
-        {
-          text: 'Examples',
-          items: [
-            { text: 'Markdown Examples', link: '/markdown-examples' },
-            { text: 'Runtime API Examples', link: '/api-examples' },
-          ]
-        }
       ],
       '/services/': [
         {
