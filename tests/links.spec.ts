@@ -24,8 +24,8 @@ test.describe('Services page', () => {
     await expect(page.getByRole('heading', { name: 'My Capabilities' })).toBeVisible();
   });
 
-  test('Momentum link works.', async ({ page }) => {
-    await page.getByRole('link', { name: 'How I Build Momentum' }).click();
+  test('Strategy link works.', async ({ page }) => {
+    await page.getByRole('link', { name: 'My Strategy' }).click();
     await expect(page.getByRole('heading', { name: 'How I Build Momentum' })).toBeVisible();
   });
 });
@@ -34,7 +34,7 @@ test.describe('NavBar', () => {
 
   test('Projects link works', async ({ page }) => {
     await page.getByRole('link', { name: 'Projects' }).click();
-    await expect(page.getByRole('heading', { name: 'my projects and past work' })).toBeVisible();
+    await expect(page.getByRole('heading', { name: 'Past Jobs' })).toBeVisible();
   });
 
   test.skip('Blog link works.', async ({ page }) => {
