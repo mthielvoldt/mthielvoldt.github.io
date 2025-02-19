@@ -4,7 +4,7 @@ title: AquaVolta
 # [{{$frontmatter.title}}][1]
 
 ![beach](/images/aqua-volta/beach-crop.jpg){style="float: center"}
-I started kiteboarding in 2002, and since then I found myself in many situations where I was on the wafer after dark and either needed to locate my equipment or see my surroundings.   In 2016, I co-founded AquaVolta with Kim Harrison, another kiteboarding enthusiast, in order to make waterproof electronic lighting products for watersports.  
+I started kiteboarding in 2002, and since then I found myself in many situations where I was on the water after dark and either needed to locate my equipment or see my surroundings.   In 2016, I co-founded AquaVolta with Kim Harrison, another kiteboarding enthusiast, in order to make waterproof electronic lighting products for watersports.  
 
 ![driftwood](/images/aqua-volta/driftwood.jpg){style="float: right; margin-left: 1em"}
 

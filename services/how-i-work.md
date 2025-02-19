@@ -18,18 +18,19 @@ Without tests, there's a ceiling on the size and complexity a project can reach,
 ### End to End
 End-to-End tests support product use-cases, including engineering and manufacture use cases.  My favorite solution is to deliver the GUI mentioned above **as a web page**, and write tests in [Playwright][1].  Testing this way covers the UI, so we can release a full solution with confidence. 
 
-### Integration tests
+### Integration Tests
 I recommend forgoing this level of testing until after the architecture is relatively settled.  It's difficult to get good return-on-investment from integration tests before that.  One exception is: if simulation is planned for the project, some simulation platforms can support integration tests.  Such a setup could partially validate changes to feedback control code without risking hardware.
 
-### Unit tests
+### Unit Tests
 Unit tests are great for proving a code unit does the right things.  I think there's a little too much emphasis on these in some circles, but they certainly give a great ROI for corner cases.  I like [Unity][2] for embedded projects.
 
-## Hardware-friendly approach
-Simulation can be a powerful accelerant for progress, but ideas actually get proven and come to life on hardware.  I've also experienced how precious working units of hardware can be.  I have come to understand this duality as meaning: go, but go carefully.  Power systems (motor controllers, inverters, etc.) are the easiest to accidentally damage in my experience.  When I'm testing hardware of that kind, I challenged myself not to damage it for the same reason twice.
+## Hardware-Friendly Approach
+Simulation can be a powerful accelerant for progress, but ideas actually get proven and come to life on hardware.  I've also experienced how precious working prototype hardware can be.  I have come to understand this duality as meaning: test, but test carefully.  Power systems (motor controllers, inverters, etc.) are the easiest to damage, and often in shortest supply.  When hardware is scarce, I challenge myself not to damage hardware more than once for the same reason.
 
-To succeed in this, I prioritize creating and validating hardware protection code before starting other testing.  Of course, sometimes a failure gets past my safeguards, so in tandem with writing protections, I also consider a data-capture strategy so if or when a new failure mode crops up, I learn enough about it the first time to improve protections and catch that failure the next time.  
+To succeed in this, I prioritize creating and validating hardware protection code and operating procedures before starting other testing.  Sometimes a failure gets past my safeguards, so in tandem with writing protections, I also consider a data-capture strategy so if or when a new failure mode crops up, I learn enough about it to improve protections and prevent damage the next time.
 
-## Phases of a typical project
+
+## Phases of a Typical Project
 1. Clarify requirements, intended uses, and pseudo-code end-to-end tests.
 1. Identify technical risk areas, and strategize de-risking each. 
 1. Set up for development (accounts, toolchain, CI)

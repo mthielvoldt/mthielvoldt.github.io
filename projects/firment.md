@@ -57,9 +57,9 @@ My experiences at both Gradient and Lunar taught and re-taught me certain lesson
 
 ### Observations about Testing
 
-After leaving Lunar, I felt unsettled about these lessons because they didn't offer any solutions.  I had tried twice, and failed twice, to instigate an automated testing program Lunar.  I had help, and even some buy-in (more like non-interference), but the systems my colleagues and I built never seemed to deliver on the promise; the juice never felt worth the squeeze.  
+After leaving Lunar, I felt unsettled about these lessons because they didn't offer any solutions.  I had tried twice, and failed twice, to demonstrate the value of automated regression tests at Lunar.  Several developers were on the effort, but we didn't see the return-on-investment we had been hoping for by the time I left.
 
-Through reflection and searching for answers on the internet and in books, I came to this awesome piece of wisdom from Dave Farley of [Continuous Delivery][3]: designing tests is *actually designing interfaces*.  The corollary: tests are only as solid as the interfaces they're built atop.  At Lunar in particular, and for a variety of reasons, our interfaces were quite unstable.  The tests I wrote would all need fixing every time our interface would change.  I was making myself and others more work, not less.  So my search for answers moved upstream.  How do we build solid interfaces even at project beginnings when uncertainty is high?
+Through reflection and searching for answers on the internet and in books, I came to this awesome piece of wisdom from Dave Farley of [Continuous Delivery][3]: designing tests is *actually designing interfaces*.  The corollary: tests are only as solid as the interfaces they're built atop.  At Lunar in particular, and for a variety of reasons, our interfaces were quite unstable.  The tests I wrote would all need fixing every time our interface would change.  We were making ourselves more work, not less.  So my search for answers moved upstream.  How do we build solid interfaces even at project beginnings when uncertainty is high?
 
 This led me to look at what made an interface likely to need revision.  Here's what I noticed:
 
@@ -69,26 +69,26 @@ If you are deciding your variable won't need more than 10 bits, your'e more like
 #### 2. We need both screws and steering columns
 I came to this realization when I reflected on a CLI I had whipped up for tuning a complex control system.  Maybe this sounds familiar: you need an easy way to change parameters or call functions on the fly.  There is a procedure for defining new messages in your system, but that feels too cumbersome, so you fashion a single message for your purposes that contains something like `{command, value}` and you enumerate the things you want to access in the `command` field.  It made sense, but still felt redundant.  Was I just being lazy?  Or was I discovering a better way to pass data around our system?  Did we really need both?
 
-Eventually I found an analogy for what had happened.  Our "legit" messages were like steering wheels.  They are purpose-built for frequent use in a structured way, and they're no good for much else.  There are relatively few of these, generally one or *maybe* two for each intended function of the system.  That's because they are expensive to create: you generally converse with other people about how they should look.
+Eventually I found an analogy for what had happened.  Our "legit" messages were like steering wheels.  They are purpose-built for frequent use in a structured way, and they're no good for much else.  There are relatively few of these, preferably one for each intended function of the system.  That's because they are expensive to create: you generally talk with other people about how they should look.
 
-The CLI commands I built were like screws.  There are many, each only touching a small internal portion of the system.  They're cheap to make, (you just decide), but less easy to use, often being somewhat concealed and requiring a special script and maybe a few "help" calls to invoke them - analogous to a screwdriver.  
+The CLI commands I built were like screws.  There are many, each only touching a small portion of the system.  They're cheap to make, (you just decide), but less easy to use, often being somewhat concealed and requiring a special script and maybe a few "help" calls to invoke them - analogous to a screwdriver.  
 
-Do we really need both?  We do if we want to develop efficiently.  Consider which is good to build a test on.  The screws touch system internals, and you don't talk to anyone else about their format, so they're more likely to disappear or change as the internals get worked on or you think of a better name.  That makes them a terrible foundation for tests.  The purpose-built, agreed upon steering wheels are much more stable, and since they're expected to be used frequently, the system might be optimized to handle that input quickly, which speed up tests.  
+Do we really need both?  We do if we want to develop efficiently.  Consider which is good to build a test on.  The screws touch system internals, and you don't talk to anyone else about their format, so they're more likely to disappear or change as the internals get worked on or you think of a better name or structure.  That makes them a terrible foundation for tests.  The purpose-built, agreed upon steering wheels are much more stable, and since they're expected to be used frequently, the system might be optimized to handle that input quickly, which would speed up tests.  
 
 #### 3. Code generation is appropriate
-There's a great deal of code for handling data, and it all looks pretty similar.  This includes serialization / deserialization, and can go even a little farther to the de-multiplexing and generation of interface components.
+There's a great deal of code for handling data, and it all looks very similar.  This includes serialization / deserialization, and can go even a little farther to the de-multiplexing and generation of interface components.
 
 #### 4. You get what you pay attention to
 To design an interface that requires minimal revision as a project progresses, folks need to put in some effort.  We know what works: when a diverse group of informed people write proposals and circulate requests for comments, we get things like TCP that really hold up.  Choosing reliable lower layers also lets us focus on the application layer, improving our chances at making good decisions. 
 
 #### 5. It requires the right culture
-It takes time to develop awareness about when you're affecting other parts of the system.  This awareness is deadened if your bosses hammer the message that you're mainly accountable for making your piece work.
+It takes time to develop awareness of how your design decisions integrate with and affect other parts of the system.  This awareness is stunted if your bosses hold you mainly accountable for making just your piece of the system "work".  Fostering accountability to system-concerns is a particularly challenging aspect of managing software teams.  In my experience, teams that do this well are both rare and delightful.
 
 ### Observations about User Interfaces
 Testing was not the only source of wisdom about interfaces.  The firmware teams I was on also built and maintained GUIs for other teams to use in running the product.  The GUIs were native apps (Mac, Win, Lin) and they were difficult to build and maintain.  
 - They weren't part of our firmware CI pipeline
   - GUI regressions often got past us into releases.
-  - Adding the GUI executables to Firmware releases was laborious and labor-prone
+  - Adding the GUI executables to Firmware releases was laborious and error-prone.
 - Manually downloading, saving and organizing GUI versions was a pain point for users.  
 - When our data interface changed, about half the work was updating the GUIs.
 
