@@ -7,7 +7,7 @@ export default defineConfig({
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [
-      { text: 'Services', link: '/' },
+      { text: 'Home', link: '/' },
       { text: 'Jobs & Projects', link: '/projects/lunar' },
       { text: 'Contact', link: '/_pages/contact' }
     ],
@@ -35,15 +35,6 @@ export default defineConfig({
             { text: 'Fuel Injection ECU', link: '/projects/ecuality' },
           ]
         },
-      ],
-      '/services/': [
-        {
-          text: 'My Services', items: [
-            { text: 'Home', link: '/'},
-            { text: 'My Strategy', link: '/services/how-i-work' },
-            { text: 'My Capabilities', link: '/services/capabilities'}
-          ]
-        }
       ]
     },
 
