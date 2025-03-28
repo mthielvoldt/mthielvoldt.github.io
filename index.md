@@ -9,7 +9,7 @@ hero:
   # Actions are clickable. 
   actions:
     - theme: brand
-      text: My Company
+      text: MGT Firmware
       link: https://mgtfirmware.com
 
 ---
