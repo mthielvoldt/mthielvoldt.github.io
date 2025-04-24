@@ -9,7 +9,7 @@ export default defineConfig({
     nav: [
       { text: 'Home', link: '/' },
       { text: 'Jobs & Projects', link: '/projects/lunar' },
-      { text: 'Resume', link: '/assets/Mike_Thielvoldt_2025.03.pdf' },
+      { text: 'Resume', link: '/Mike_Thielvoldt_2025.03.pdf' },
       { text: 'Contact', link: '/_pages/contact' }
     ],
 
